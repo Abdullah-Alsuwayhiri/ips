@@ -1,0 +1,40 @@
+.submitLink {
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+  }
+  submitLink:focus {
+    outline: none;
+  }
+.field-name-body {
+    float: left;
+}
+.field-name-field-image {
+    float: right;
+}
+
+.whiteHat {
+  border: none;
+  width: 100px;
+  position: absolute;
+  background-color: red;
+}
+
+.whiteHat {
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 50% !important;
+  height: auto !important;
+  right: auto !important;
+  top: auto !important;
+}
+.whiteHat + .whiteHat {
+  left: auto !important;
+  bottom: 0 !important;
+  width: 50% !important;
+  height: auto !important;
+  right: 0 !important;
+  top: auto !important;
+}
